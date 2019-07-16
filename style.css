@@ -14,7 +14,7 @@ body{
 	flex-direction: row;
 	font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
     justify-content: flex-end;
     width: 100%;
 }
@@ -26,7 +26,8 @@ body{
 .nav-column div{
 	padding-bottom: 5px;
 }
-a{
+a {
+	color: #0077C5;
 	text-decoration: none;
 }
 .nav-column button{
