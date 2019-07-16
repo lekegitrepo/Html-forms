@@ -1,0 +1,43 @@
+body{
+	background: #ECEEF1;
+	margin: 0px;
+	padding: 0px;
+}
+#nav-wrapper{
+	box-sizing: border-box;
+	display: flex;
+	padding: 10px 30px 10px 30px;
+}
+#container{
+	color: #505050;
+	display: inline-flex;
+	flex-direction: row;
+	font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    justify-content: flex-end;
+    width: 100%;
+}
+.nav-column{
+	align-content: flex-end;
+	padding-top: 5px;
+	padding-right: 15px;
+}
+.nav-column div{
+	padding-bottom: 5px;
+}
+a{
+	text-decoration: none;
+}
+.nav-column button{
+	background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+	color: white;
+    cursor: pointer;
+	height: 35px;
+    font-size: 1.125em;
+    font-weight: normal;
+	text-align: center;
+	width: 105px;
+}
