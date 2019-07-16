@@ -52,3 +52,37 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
 }
+/* "PARENT div" with header and icons above the form: */
+#header-icons {
+    align-items:center;
+    display:flex;
+    flex-direction: column;
+    height:150px;
+    margin-top: 20px;    
+    width: 1284px;
+    }
+/* "CHILD div" line with icons and words */
+.icons{ 
+    align-items: center;
+    display: inline-flex;    
+    flex-direction: row;
+    height:80px;
+    justify-content:center;
+    width: 1284px;
+}
+/* image of icons*/
+.icons img{
+    height:23px;
+    margin: 3px;
+    width:23px;
+    
+}
+/* words next to the icons*/
+.icons p{
+    color: #000000;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:12px;
+    line-height: 18px;
+    text-align: center;
+    
+}
