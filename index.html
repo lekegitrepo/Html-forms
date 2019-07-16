@@ -43,10 +43,10 @@
 
                     <form>
                         <!-- email -->
-                        <fieldset id="fieldset-email">
-                            <label id="label-email" class="label" for="email"> Email address
+                        <fieldset>
+                            <label class="label" for="email"> Email address
                             </label>
-                            <div class="text-input-container">
+                            <div class="input-container">
                               <input id="email" class="text-input" placeholder="You'll verify this later" maxlength="100" type="email" aria-required="true" required="required" autocomplete="off">
                             </div>
                         </fieldset>
@@ -56,7 +56,7 @@
                                 Phone 
                                 <span class="optional">(recommended)</span>
                             </label>
-                            <div class="text-input-container">
+                            <div class="input-container">
                                 <input id="mobile-phone" class="text-input" placeholder="You'll verify this later" maxlength="100" type="tel" aria-required="true" required="required">
                             </div>
                             <span>
@@ -68,11 +68,19 @@
                             <label class="label" for="password">
                               Password
                             </label>
-                            <div id="pass" class="text-input-container">
+                            <div id="pass" class="input-container">
                                 <input id="password" class="text-input" placeholder="You'll verify this later" maxlength="100" type="password" aria-required="true" required="required">
                                 <img class="lock-left-grey" >
                             </div>
                         </fieldset>
+                        <div id="btn-container">
+                            <button id="create-account-btn">
+                                <img class="white-lock" src="icons/icon-whitelock.png">
+                                <span id="submit-text">
+                                   Create account
+                                </span>
+                            </button>
+                        </div>
                     </form>
 
                 </div>
