@@ -92,7 +92,7 @@ a {
 }
 #form {
     align-items: center;
-    background:blue;
+    background: palevioletred;
     box-shadow: none;
     border-radius: 2px;
     box-sizing: border-box;
@@ -100,7 +100,7 @@ a {
     flex-direction: column;
     font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:14px;
-    height: 800px;
+    height: 551px;
     line-height: 21px;    
     text-align: left;
     width:380px;    
@@ -164,5 +164,15 @@ fieldset {
    height: 44px;
    text-align: center;
    width: 310px;
+}
+p {
+    color: #404040;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    line-height:21px;
+    text-align: center;
+}
+.footer-form{
+    background-color: red;
 }
 
