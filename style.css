@@ -100,9 +100,24 @@ a {
     font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:14px;
     height: 668px;
-    /*justify-content: center;*/
     line-height: 21px;    
     text-align: left;
     width:380px;    
+}
+fieldset{
+    border: none;
+}
+.label{
+    color: #404040;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+.input-container{
+    min-width: 160px;
+    width: 320px;
+}
+.text-input{
+    border: 1px solid #C1C5C8;
 }
 
