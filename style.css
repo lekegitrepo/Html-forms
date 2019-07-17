@@ -105,21 +105,22 @@ a {
     text-align: left;
     width:380px;    
 }
-fieldset{
+fieldset {
     border: none;
 }
-.label{
+.label {
     color: #404040;
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
     padding-bottom: 6px;
 }
-.input-container{
+.input-container {
     min-width: 160px;
+    position: relative;
     width: 320px;
 }
-.text-input{
+.text-input {
     border: 1px solid #C1C5C8;
     border-radius: 3px;
     color: #000;
@@ -131,15 +132,30 @@ fieldset{
     padding-right: 6px;
     width: 100%;
 }
-#msg{
+#pass {
+    display: flex;
+    flex-direction: row;
+}
+.lock-left-grey{
+    bottom: 0px;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 2px;
+    height: 21px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 21px;  
+}
+#msg {
     font-size: 10px;
 }
-#btn-container{
+#btn-container {
     display: flex;
     padding-bottom: 10px;
     justify-content: center;
 }
-#create-account-btn{
+#create-account-btn {
    background: #0077C5;
    border: 1px solid #0073C5;
    border-radius: 4px;
