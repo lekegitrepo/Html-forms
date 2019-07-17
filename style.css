@@ -56,13 +56,12 @@ a {
 #header-icons {
     align-items:center;
     display:flex;
-    flex-direction: column;
-    height:150px;
+    flex-direction: column;    
     margin-top: 20px;    
-    width: 1284px;
-    }
+    
+}
 /* "CHILD div" line with icons and words */
-.icons{ 
+.icons { 
     align-items: center;
     display: inline-flex;    
     flex-direction: row;
@@ -74,8 +73,7 @@ a {
 .icons img{
     height:23px;
     margin: 3px;
-    width:23px;
-    
+    width:23px;    
 }
 /* words next to the icons*/
 .icons p{
@@ -83,6 +81,28 @@ a {
     font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:12px;
     line-height: 18px;
-    text-align: center;
+    text-align: center;    
+}
+#parent-form {
+    align-items:center;
+    display:flex;
+    flex-direction: column;    
+    margin-top: 0px;    
     
 }
+#form {
+    align-items: center;
+    background:blue;
+    box-shadow: none;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    height: 668px;
+    /*justify-content: center;*/
+    line-height: 21px;    
+    text-align: left;
+    width:380px;    
+}
+
